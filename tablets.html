@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Porównywarka sprzętu</title>
+
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,900&subset=latin-ext" rel="stylesheet">
+
+        <link rel="icon" href="favicon.ico">
+
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="main.js"></script>
+    </head>
+
+    <body onload="odliczanie();">
+        <div id="wrapper">
+            <header>
+                <img src="header.jpg" alt="header"/>
+            </header>
+            <nav>
+                <ul id="menu">
+                    <li><a  href="index.html">Laptopy</a></li>
+                    <li><a class="menuactive" href="tablets.html">Tablety</a></li>
+                    <li><a  href="smartphones.html">Smartfony</a></li>
+                    <li><a  href="contact.html">Kontakt</a></li>
+                    <x class="Button">
+                    <input class="Button" placeholder="Co chcesz wyszukać?" aria-label="Szukaj">
+                    <button class="buton" type="submit">Szukaj</button>
+                </x> 
+                </ul>
+            </nav>
+            <span style="text-align:right;font-size:20px; font-style: italic;color: grey;"><div id="zegar"></div></span>
+            <section>
+                <h1>Tablety</h1>
+                <p>Jaki jest najlepszy tablet? Oto lista 10 modeli, które wyróżniają się wydajnością, funkcjonalnością, jakością wykonania lub unikalnymi rozwiązaniami. 
+                    Godne uwagi modele z Google Android, Apple iOS oraz Windows 10.
+                </p>
+                
+                <article>
+                    <h2><img src="tablety/pierwszy.jpg" alt="tabletyphoto"/>1. Samsung Galaxy Tab S3 Wi-Fi</h2>
+                    <p>Zaprezentowany na targach MWC 2017, Samsung Galaxy Tab S3 Wi-Fi to topowy obecnie tablet koreańskiego producenta. 
+                        Podobać może się tutaj nie tylko nienaganna stylistyka, ale także ekran Super AMOLED, którego przekątna wynosi 9,7”, a rozdzielczość 2048 x 1536 pikseli. 
+                        Tym bardziej, że można obsługiwać go nie tylko dłonią, ale i rysikiem S Pen. 
+                        Przy procesorze Qualcomm Snapdragon 820 i 4 GB pamięci RAM mało kto narzekać będzie na wydajność, tablet wyposażony jest też w czytnik linii papilarnych,
+                        baterię 6000 mAh i 4 głośniki stereo AKG. Urządzenie pracuje pod kontrolą Androida 7.0.
+                    </p>
+                </article>
+                <article>
+                    <h2><img src="tablety/drugi.jpg" alt="tabletyphoto"/>2. Lenovo Yoga Book</h2>
+                    <p>Lenovo Yoga Book (Android) to tablet hybrydowy, a jednocześnie jedna z najciekawszych tego typu propozycji w ostatnich latach. 
+                        Mamy tutaj do czynienia z dotykowym ekranem o przekątnej 10,1 cala, ale zamiast klasycznej klawiatury producent zdecydował się zastosować duży touchpad. 
+                        Obsługiwać można go rysikiem Wacom, a także wyświetlić na nim wirtualną klawiaturę, co znacząco rozszerza funkcjonalność urządzenia. 
+                        Tym bardziej, że procesor Intel Atom x5-Z8550 i 4 GB RAM zapewniają dużą wydajność. W zestawieniu zamieszczamy wersję z systemem Android,
+                         w sprzedaży dostępna jest jednak także druga, już z Windows 10. 
+                    </p>
+                </article>
+                <article>
+                    <h2><img src="tablety/trzeci.jpg" alt="tabletyphoto"/>3. Lenovo Yoga TAB 3 Plus</h2>
+                    <p>Lenovo Yoga TAB 3 Plus (ZA1R0014PL) to przedstawiciel dobrze znanej serii tabletów, model bez wątpienia wart uwagi. 
+                        Pod względem ergonomii wypada doskonale, mamy tutaj charakterystyczną podstawkę pozwalającą ustawiać urządzenie w różnych pozycjach 
+                        (4 tryby pracy - połóż, postaw, trzymaj w dłoni i powieś). 
+                        Bardzo dobrze wypada też wyświetlacz, rozdzielczość 2560 x 1600 pikseli wspierana technologią Color Enhance przekłada się na bardzo szczegółowy obraz. 
+                        Producent zastosował baterię o pojemności aż 9300 mAh oraz 4 głośniki JBL z Dolby Atmos. 
+                        Wewnątrz obudowy mamy też dość wydajny procesor Qualcomm Snapdragon 652 i solidny aparat tylny. 
+                    </p>
+                </article>
+                <article>
+                    <h2><img src="tablety/czwarty.jpg" alt="tabletyphoto"/>4. Lenovo TAB 4 8 Plus LTE</h2>
+                    <p>Lenovo TAB 4 8 Plus LTE oferuje wyświetlacz o przekątnej 8 cali co przekłada się na bardzo wysoką mobilność urządzenia, 
+                        przy rozdzielczości 1920x1200 nie można narzekać na jakość prezentowanego obrazu. Lenovo TAB 4 8 Plus LTE pracuje pod kontrolą systemu Android 7.0 Nougat, 
+                        przy procesorze Qualcomm Snapdragon 625 i 3 GB pamięci RAM cieszyć można się płynną pracą, a także komfortową zabawą z większością mobilnych gier. 
+                        Producent zadbał o dość solidną baterię 4850 mAh oraz złącze USB typu C. 
+                    </p>
+                </article>
+                <article>
+                    <h2><img src="tablety/piaty.jpg" alt="tabletyphoto"/>5. Huawei MediaPad M3</h2>
+                    <p>Nienaganna stylistyka to cecha także Huawei MediaPad M3 z obudową wykonaną z aluminium lotniczego. 
+                        Uwagę zwracają tu głośniki stereo, nad którymi producent pracował wspólnie z AKG. Huawei MediaPad M3 to konstrukcja bardzo poręczna, ekran mierzy 8,4 cala, 
+                        a mimo to oferuje świetną rozdzielczość 2560 x 1600 pikseli. Ośmiordzeniowy procesor HiSilicon Kirin 950 wspólnie z 4 GB pamięci RAM zapewnia dobrą wydajność, 
+                        znalazło się nawet miejsce dla czytnika linii papilarnych. 
+                    </p>
+                </article>
+
+            </section>
+
+            <footer>
+                <h1>Obejrz naszą recenzję wideo wybranych tabletów!</h1>
+                <iframe width="100%" height="600" src="https://www.youtube.com/embed/m5e3V5qKPms" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </footer>
+        </div>
+    </body>
+
+
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Porównywarka sprzętu</title>
+
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,900&subset=latin-ext" rel="stylesheet">
+
+        <link rel="icon" href="favicon.ico">
+
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="main.js"></script>
+    </head>
+
+    <body onload="odliczanie();">
+        <div id="wrapper">
+            <header>
+                <img src="header.jpg" alt="header"/>
+            </header>
+            <nav>
+                <ul id="menu">
+                    <li><a  href="index.html">Laptopy</a></li>
+                    <li><a  href="tablets.html">Tablety</a></li>
+                    <li><a class="menuactive" href="smartphones.html">Smartfony</a></li>
+                    <li><a  href="contact.html">Kontakt</a></li>
+                    <x class="Button">
+                    <input class="Button" placeholder="Co chcesz wyszukać?" aria-label="Szukaj">
+                    <button class="buton" type="submit">Szukaj</button>
+                </x>                   
+                </ul>
+            </nav>
+            <span style="text-align:right;font-size:20px; font-style: italic;color: grey;"><div id="zegar"></div></span>
+            <section>
+                <h1>Smartfony</h1>
+                <p>Wybraliśmy najlepsze, najbardziej godne polecenia smartfony i prezentujemy ich aktualne ceny w polskich sklepach. 
+                    Szybkie, wydajne, nowoczesne, z dobrymi ekranami i aparatami. Oto TOP 5 najlepszych telefonów flagowych.
+                </p>
+                
+                <article>
+                    <h2><img src="smartfony/pierwszy.jpg" alt="smartfonyphoto"/>1. Xiaomi Mi Mix 2</h2>
+                    <p>Xiaomi Mi Mix 2 od czytelników portalu benchmark.pl dostał wyróznienie "Smartfon roku 2017". 
+                        Zasłużył sobie na to przede wszystkim dlatego, że oferuje wiele za całkiem rozsądne pieniądze. 
+                        W popularnych chińskich sklepach kosztuje mniej niż 1600 zł co jest kwotą bardziej niż adekwatną do jego możliwości i jakości. 
+                        Co prawda w Polsce jego cena jest znacznie wyższa, ale... przecież wybór sklepu należy do Was. 
+                        Xiaomi Mi Mix 2 ma duży wyświetlacz 5,99" 18:9 z bardzo cienkimi ramkami z trzech stron. 
+                        Dzięki temu całość prezentuje się nowocześnie i elegancko. Obraz jest jasny i szczegółowy, a kolory nasycone. 
+                        System operacyjny Android z aktualizacją do wersji 8.0 jest świetnie zoptymalizowany i działa szybko.
+                    </p>
+                </article>
+                <article>
+                    <h2><img src="smartfony/drugi.jpg" alt="smartfonyphoto"/>2. Google Pixel 2 XL</h2>
+                    <p>Google Pixel 2 XL to superszybki smartfon z super aparatem i niestety... superwysoką ceną. 
+                        Jego największą zaletą jest czysty idealnie zoptymalizowany system Android 8.1 z przyszłą aktualizacją do Androida 9.0. 
+                        W połączeniu z procesorem Snapdragon 835 i 4 GB RAM'u oraz szybką pamięcią masową smartfon śmiaga prawie równie szybko jak wylatują złotówki z 
+                        Waszego portfela gdy za niego płacicie. Kwota jest niebagatelna - około 4000 zł, ale... dostajecie najpłynniej działajacy smartfon z Androidem, 
+                        który przy okazji ma znakomity wyświetlacz P-OLED, NFC, Bluetooth 5.0 i wspomniany wcześniej imponujący aparat. 
+                        Pod względem jakości zdjęć jest to najlepszy smartfon, przynajmniej na początku roku 2018. 
+                    </p>
+                </article>
+                <article>
+                    <h2><img src="smartfony/trzeci.jpg" alt="smartfonyphoto"/>3. OnePlus 5T</h2>
+                    <p>OnePlus 5T to smartfon, który imponuje szybkością działania. Pod tym względem jest to smartfon niemal doskonały. 
+                        Zawdzięcza to przede wszystkim znakomitej optymalizacji systemu Android, ale swoją zasługę mają w tym również dobre podzespoły - wydajny procesor Snapdragon 835,
+                         6 lub 8 GB pamięci RAM i 640 lub 128 GB szybkiej pamięci masowej UFS 2.1. Na dużą pochwałę zasługuje też jakość wykonania obudowy, 
+                         szybki czytnik linii papilarnych oraz dobry wyświetlacz AMOLED 18:9. W chińskich sklepach kupimy go już za około 1950 zł.
+                    </p>
+                </article>
+                <article>
+                    <h2><img src="smartfony/czwarty.jpg" alt="smartfonyphoto"/>4. LG V30</h2>
+                    <p>Oto propozycja z najwyższej półki dla osób które stawiają na bardzo atrakcyjną stylistykę. 
+                        LG V30 to jeden z najładniejszych smartfonów flagowych, a w dodatku jego szklano-metalowa obudowa jest wodoszczelna (IP68). 
+                        Ma również duży wyświetlacz OLED otoczony cienkimi ramkami, który imponuje jakością obrazu, wydajny procesor, nowoczesną łączność bezprzewodową 
+                        (w tym Bluetooth 5.0 i NFC), wyjście słuchawkowe 3,5 mm ze znakomitą jakością dźwięku (Quad DC) oraz robi bardzo dobrej jakości zdjęcia i filmy. 
+                        To ładny i dobry smarfon flagowy. 
+                    </p>
+                </article>
+                <article>
+                    <h2><img src="smartfony/piaty.jpg" alt="smartfonyphoto"/>5. Samsung Galaxy S8</h2>
+                    <p>Galaxy S8 wyposażony jest w bardzo dobry wyświetlacz Super AMOLED z zakrzywionymi krawędziami. 
+                        Nienaganna stylistyka nie przeszkodziła w zadbaniu o obudowę odporną na szkodliwe działanie pyłu oraz wody (IP68). Jej wnętrze skrywa bardzo wydajne podzespoły,
+                         Galaxy S8 dysponuje ośmiordzeniowym procesorem Exynos 8895, 4 GB pamięci RAM oraz kamerą 12 Mpix z obiektywem f/1.7 i rewelacyjnym autofokusem. 
+                         Na tle konkurentów model ten wyróżnia się obecnością skanera tęczówki oka, który niektórym osobom zrekompensuje zapewne nieco mało przemyślane umiejscowienie 
+                         czytnika linii papilarnych. Galaxy S8 jest ładny, bardzo poręczny i nowoczesny. 
+                    </p>
+                </article>
+
+            </section>
+
+            <footer>
+                <h1>Obejrz naszą recenzję wideo wybranych smartfonów!</h1>
+                <iframe width="100%" height="600" src="https://www.youtube.com/embed/m5e3V5qKPms" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </footer>
+        </div>
+    </body>
+
+
+</html>
